@@ -1,0 +1,54 @@
+.clock {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.dotted {
+  position: absolute;
+  top: 64px;
+  left: 64px;
+  width: 344px;
+  height: 344px;
+  opacity: 0.3;
+  /* transform: scale(3); */
+}
+
+.dottedBold {
+  position: absolute;
+  top: 64px;
+  left: 64px;
+  width: 344px;
+  height: 344px;
+  /* transform: scale(3); */
+}
+
+.hours,
+.minutes,
+.seconds {
+  position: absolute;
+  transform-origin: bottom;
+}
+
+.hours {
+  top: 35%;
+  left: 35%;
+}
+
+.minutes {
+  top: 25%;
+  left: 53%;
+}
+
+.seconds {
+  top: 55%;
+  left: 55%;
+}
+
+.dot {
+  position: absolute;
+  top: 54%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  transform: scale(2);
+}
